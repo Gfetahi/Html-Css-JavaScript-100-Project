@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-slid {
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.8s ease-in-out;
+}
+
+.left-slid > div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.left-slid h1 {
+    font-size: 2.5rem;
+}
+
+.right-slid {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    width: 65%;
+    transition: transform 0.8s ease-in-out;
+}
+
+.buttons-container button {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    background: transparent;
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+#down-btn {
+    transform: translateX(-100%);
+}
+
+#up-btn {
+    transform: translateY(-100%);
+}
+
+.game-one {
+    background-color: #371602;
+}
+
+.game-two {
+    background-color: #181a1c;
+}
+
+.game-three {
+    background-color: #545552;
+}
+
+.game-four {
+    background-color: #584005;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-one {
+    background-image: url(https://wallpapercave.com/wp/wp11717266.jpg);
+    
+}
+
+.img-two {
+    background-image: url(https://wallpapercave.com/wp/wp2329518.jpg);
+}
+
+.img-three {
+    background-image: url(https://wallpapercave.com/wp/wp2979635.jpg);
+}
+
+.img-four {
+    background-image: url(https://wallpapercave.com/wp/wp2208669.png);
+}
